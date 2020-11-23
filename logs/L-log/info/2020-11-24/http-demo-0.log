@@ -1,0 +1,102 @@
+2020-11-24 00:45:11.899 [INFO ] com.lmh.adminService.AdminServiceApplication - Starting AdminServiceApplication on DESKTOP-A1TAV2L with PID 13804 (D:\dormitory_parent\service\service_admin\target\classes started by hp in D:\dormitory_parent)
+2020-11-24 00:45:11.902 [INFO ] com.lmh.adminService.AdminServiceApplication - The following profiles are active: dev
+2020-11-24 00:45:13.691 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-24 00:45:13.696 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-24 00:45:13.743 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-11-24 00:45:14.139 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-24 00:45:14.455 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-11-24 00:45:14.465 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-24 00:45:14.466 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-24 00:45:14.466 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-11-24 00:45:14.653 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-24 00:45:14.932 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-24 00:45:15.081 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-11-24 00:45:15.088 [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-24 00:46:39.897 [INFO ] com.lmh.adminService.AdminServiceApplication - Starting AdminServiceApplication on DESKTOP-A1TAV2L with PID 19180 (D:\dormitory_parent\service\service_admin\target\classes started by hp in D:\dormitory_parent)
+2020-11-24 00:46:40.124 [INFO ] com.lmh.adminService.AdminServiceApplication - The following profiles are active: dev
+2020-11-24 00:46:40.911 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-24 00:46:40.913 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-24 00:46:40.936 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2020-11-24 00:46:41.247 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-24 00:46:41.560 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-11-24 00:46:41.572 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-24 00:46:41.573 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-24 00:46:41.573 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-11-24 00:46:41.711 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-24 00:46:41.883 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-24 00:46:42.006 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-11-24 00:46:42.015 [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-24 00:52:56.000 [INFO ] com.lmh.adminService.AdminServiceApplication - Starting AdminServiceApplication on DESKTOP-A1TAV2L with PID 16488 (D:\dormitory_parent\service\service_admin\target\classes started by hp in D:\dormitory_parent)
+2020-11-24 00:52:56.035 [INFO ] com.lmh.adminService.AdminServiceApplication - The following profiles are active: dev
+2020-11-24 00:52:56.952 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-24 00:52:56.955 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-24 00:52:56.981 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2020-11-24 00:52:57.304 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-24 00:52:57.572 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-11-24 00:52:57.582 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-24 00:52:57.583 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-24 00:52:57.583 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-11-24 00:52:57.695 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-24 00:52:57.869 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-24 00:52:57.999 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-11-24 00:52:58.008 [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-24 00:54:34.646 [INFO ] com.lmh.adminService.AdminServiceApplication - Starting AdminServiceApplication on DESKTOP-A1TAV2L with PID 1880 (D:\dormitory_parent\service\service_admin\target\classes started by hp in D:\dormitory_parent)
+2020-11-24 00:54:34.679 [INFO ] com.lmh.adminService.AdminServiceApplication - The following profiles are active: dev
+2020-11-24 00:54:35.559 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-24 00:54:35.561 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-24 00:54:35.582 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-11-24 00:54:35.877 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-24 00:54:36.144 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-11-24 00:54:36.156 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-24 00:54:36.157 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-24 00:54:36.157 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-11-24 00:54:36.304 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-24 00:54:36.506 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-24 00:54:36.618 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-11-24 00:54:36.627 [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-24 00:59:47.157 [INFO ] com.lmh.adminService.AdminServiceApplication - Starting AdminServiceApplication on DESKTOP-A1TAV2L with PID 19220 (D:\dormitory_parent\service\service_admin\target\classes started by hp in D:\dormitory_parent)
+2020-11-24 00:59:47.162 [INFO ] com.lmh.adminService.AdminServiceApplication - The following profiles are active: dev
+2020-11-24 00:59:48.013 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-24 00:59:48.015 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-24 00:59:48.036 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-11-24 00:59:48.297 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-24 00:59:48.503 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-11-24 00:59:48.514 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-24 00:59:48.515 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-24 00:59:48.515 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-11-24 00:59:48.624 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-24 00:59:49.011 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-24 00:59:49.136 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-11-24 00:59:49.144 [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-24 01:03:54.040 [INFO ] com.lmh.adminService.AdminServiceApplication - Starting AdminServiceApplication on DESKTOP-A1TAV2L with PID 6368 (D:\dormitory_parent\service\service_admin\target\classes started by hp in D:\dormitory_parent)
+2020-11-24 01:03:54.044 [INFO ] com.lmh.adminService.AdminServiceApplication - The following profiles are active: dev
+2020-11-24 01:03:54.967 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-24 01:03:54.970 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-24 01:03:54.997 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2020-11-24 01:03:55.256 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-24 01:03:55.472 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-11-24 01:03:55.481 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-24 01:03:55.482 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-24 01:03:55.482 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-11-24 01:03:55.590 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-24 01:03:55.812 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-24 01:03:56.763 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-24 01:03:57.794 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-24 01:03:57.973 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 01:03:59.088 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-24 01:03:59.108 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-24 01:03:59.186 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-24 01:03:59.399 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-11-24 01:03:59.435 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-24 01:03:59.437 [INFO ] com.lmh.adminService.AdminServiceApplication - Started AdminServiceApplication in 6.131 seconds (JVM running for 7.269)
+2020-11-24 01:04:11.875 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
