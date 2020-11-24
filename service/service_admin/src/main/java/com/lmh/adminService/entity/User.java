@@ -36,6 +36,7 @@ private static final long serialVersionUID=1L;
     @ApiModelProperty(value = "用户名")
     private String username;
 
+    @ApiModelProperty(value = "姓名")
     private String nickname;
 
     @ApiModelProperty(value = "邮箱")

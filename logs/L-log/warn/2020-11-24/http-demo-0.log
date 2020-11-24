@@ -26,3 +26,9 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 2020-11-24 01:03:54.811 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lmh.adminService.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
 2020-11-24 01:03:54.811 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
+2020-11-24 14:00:42.102 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lmh.adminService.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-11-24 14:00:42.113 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
+2020-11-24 21:44:34.165 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lmh.adminService.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-11-24 21:44:34.171 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
+2020-11-24 21:50:27.570 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lmh.adminService.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-11-24 21:50:27.661 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
