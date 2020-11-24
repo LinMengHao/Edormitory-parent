@@ -8,6 +8,7 @@ import com.lmh.adminService.vo.UserQuery;
 import com.lmh.utils.R;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -88,5 +89,16 @@ public class UserController {
       }else {
           return R.error();
       }
+  }
+
+  @ApiOperation(value = "根据id，逻辑删除")
+  @PostMapping("delete/{id}")
+  public R delete(@ApiParam(name = "id", value = "讲师id", required = true) @PathVariable Long id) {
+    boolean flag = userService.removeById(id);
+    if (flag) {
+      return R.ok();
+    } else {
+      return R.error();
+    }
   }
 }

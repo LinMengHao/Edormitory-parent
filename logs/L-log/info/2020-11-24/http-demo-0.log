@@ -166,3 +166,25 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2020-11-24 21:50:30.858 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
 2020-11-24 21:50:30.862 [INFO ] com.lmh.adminService.AdminServiceApplication - Started AdminServiceApplication in 4.64 seconds (JVM running for 5.977)
 2020-11-24 21:50:34.552 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-24 22:09:09.824 [INFO ] com.lmh.adminService.AdminServiceApplication - Starting AdminServiceApplication on DESKTOP-A1TAV2L with PID 12612 (D:\dormitory_parent\service\service_admin\target\classes started by hp in D:\dormitory_parent)
+2020-11-24 22:09:09.828 [INFO ] com.lmh.adminService.AdminServiceApplication - The following profiles are active: dev
+2020-11-24 22:09:10.731 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-24 22:09:10.737 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-24 22:09:10.767 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-11-24 22:09:11.099 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-24 22:09:11.392 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-11-24 22:09:11.401 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-11-24 22:09:11.401 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-24 22:09:11.402 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-11-24 22:09:11.530 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-24 22:09:11.770 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-24 22:09:12.578 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-24 22:09:13.125 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-24 22:09:13.225 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 22:09:13.746 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-11-24 22:09:13.761 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-11-24 22:09:13.792 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-11-24 22:09:13.936 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-11-24 22:09:13.958 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-24 22:09:13.962 [INFO ] com.lmh.adminService.AdminServiceApplication - Started AdminServiceApplication in 4.975 seconds (JVM running for 6.277)
+2020-11-24 22:09:26.199 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
