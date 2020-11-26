@@ -15,9 +15,6 @@ public class UserQuery {
     @ApiModelProperty(value = "姓名")
     private String nickname;
 
-    @ApiModelProperty(value = "邮箱")
-    private String email;
-
     @ApiModelProperty(value = "联系电话")
     private String phoneNumber;
 

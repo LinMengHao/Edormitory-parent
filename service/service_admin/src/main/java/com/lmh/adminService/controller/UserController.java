@@ -21,6 +21,7 @@ import java.util.List;
  * @author lmh
  * @since 2020-11-23
  */
+@CrossOrigin
 @Api(tags = "用户表")
 @RestController
 @RequestMapping("/adminService/user")
@@ -30,26 +31,28 @@ public class UserController {
   @ApiOperation(value = "条件分页查询用户表")
   @PostMapping("findAll/{current}/{size}")
   public R findAll(
-      @PathVariable long current, @PathVariable long size, @RequestBody UserQuery userQuery) {
+      @PathVariable long current, @PathVariable long size, @RequestBody(required = false)UserQuery userQuery) {
     // 条件查询,条件判断再加入
     QueryWrapper<User> wrapper = new QueryWrapper<>();
-    if (!StringUtils.isEmpty(userQuery.getUsername())) {
-      wrapper.like("username", userQuery.getUsername());
+    String nickname = userQuery.getNickname();
+    String phoneNumber = userQuery.getPhoneNumber();
+    String username = userQuery.getUsername();
+    Integer sex = userQuery.getSex();
+    Integer status = userQuery.getStatus();
+    if (!StringUtils.isEmpty(username)) {
+      wrapper.like("username", username);
     }
-    if (!StringUtils.isEmpty(userQuery.getPhoneNumber())) {
-      wrapper.like("phone_number", userQuery.getPhoneNumber());
+    if (!StringUtils.isEmpty(phoneNumber)) {
+      wrapper.like("phone_number", phoneNumber);
     }
-    if (!StringUtils.isEmpty(userQuery.getNickname())) {
-      wrapper.like("nickname", userQuery.getNickname());
+    if (!StringUtils.isEmpty(nickname)) {
+      wrapper.like("nickname", nickname);
     }
-    if (!StringUtils.isEmpty(userQuery.getEmail())) {
-      wrapper.like("email", userQuery.getEmail());
+    if (sex!=null) {
+      wrapper.eq("sex", sex);
     }
-    if (!StringUtils.isEmpty(userQuery.getSex())) {
-      wrapper.eq("sex", userQuery.getSex());
-    }
-    if (!StringUtils.isEmpty(userQuery.getStatus())) {
-      wrapper.eq("status", userQuery.getStatus());
+    if (status!=null) {
+      wrapper.eq("status", status);
     }
     // 按创建时间排序
     wrapper.orderByDesc("create_time");
@@ -92,7 +95,7 @@ public class UserController {
   }
 
   @ApiOperation(value = "根据id，逻辑删除")
-  @PostMapping("delete/{id}")
+  @DeleteMapping("delete/{id}")
   public R delete(@ApiParam(name = "id", value = "讲师id", required = true) @PathVariable Long id) {
     boolean flag = userService.removeById(id);
     if (flag) {
