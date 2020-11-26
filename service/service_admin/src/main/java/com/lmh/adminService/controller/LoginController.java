@@ -4,7 +4,7 @@ import com.lmh.utils.R;
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.*;
 
-@Api(tags = "临时登录")
+@Api(tags = "临时登录功能")
 @RestController
 @CrossOrigin
 @RequestMapping("/adminService/user")
