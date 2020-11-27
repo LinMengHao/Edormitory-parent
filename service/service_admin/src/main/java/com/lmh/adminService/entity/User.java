@@ -48,7 +48,7 @@ private static final long serialVersionUID=1L;
     @ApiModelProperty(value = "联系电话")
     private String phoneNumber;
 
-    @ApiModelProperty(value = "状态 0锁定 1有效")
+    @ApiModelProperty(value = "状态 0未激活 1已激活")
     private Integer status;
 
     @ApiModelProperty(value = "创建时间")

@@ -1,4 +1,4 @@
-package com.lmh.base;
+package com.lmh.base.config;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;
