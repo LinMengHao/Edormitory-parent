@@ -6,6 +6,7 @@ import com.lmh.adminService.entity.User;
 import com.lmh.adminService.service.UserService;
 import com.lmh.adminService.vo.UserQuery;
 import com.lmh.utils.R;
+import com.sun.xml.bind.v2.TODO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -64,7 +65,7 @@ public class UserController {
     List<User> records = page.getRecords();
     return R.ok().data("total", total).data("records", records);
   }
-
+//TODO,项目最后整合添加用户密码等加密功能
   @ApiOperation(value = "添加用户")
     @PostMapping("addUser")
     public R addUser(@RequestBody User user){

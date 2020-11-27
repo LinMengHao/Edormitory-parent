@@ -3,7 +3,7 @@ package com.lmh.adminService.controller;
 import com.lmh.utils.R;
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.*;
-
+//TODO 最后改进登录功能，实现token携带用户信息
 @Api(tags = "临时登录功能")
 @RestController
 @CrossOrigin
