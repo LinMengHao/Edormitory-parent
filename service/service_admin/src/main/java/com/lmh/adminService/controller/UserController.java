@@ -66,15 +66,23 @@ public class UserController {
     return R.ok().data("total", total).data("records", records);
   }
 //TODO,项目最后整合添加用户密码等加密功能
+//  @ApiOperation(value = "添加用户")
+//    @PostMapping("addUser")
+//    public R addUser(@RequestBody User user){
+//      Boolean flag=userService.save(user);
+//      if(flag){
+//          return R.ok();
+//      }else {
+//          return R.error();
+//      }
+//  }
+
+  //正式版添加用户
   @ApiOperation(value = "添加用户")
-    @PostMapping("addUser")
-    public R addUser(@RequestBody User user){
-      Boolean flag=userService.save(user);
-      if(flag){
-          return R.ok();
-      }else {
-          return R.error();
-      }
+  @PostMapping("addUser")
+  public R addUser(@RequestBody User user){
+    userService.addUser(user);
+    return R.ok();
   }
 
   @ApiOperation(value = "根据Id查询用户")

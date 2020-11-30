@@ -77,5 +77,6 @@ private static final long serialVersionUID=1L;
 
     @ApiModelProperty(value = "逻辑删除 1（true）已删除， 0（false）未删除")
     @TableLogic
+    @TableField(fill = FieldFill.INSERT)
     private Integer isDeleted;
 }
