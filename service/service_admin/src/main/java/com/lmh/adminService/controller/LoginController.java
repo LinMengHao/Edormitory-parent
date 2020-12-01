@@ -43,7 +43,6 @@ public class LoginController {
   @ApiOperation(value = "获取token里面的信息")
   @GetMapping("info")
   public R info(HttpServletRequest request) {
-//    long id=Long.parseLong(JwtUtils.getMemberIdByJwtToken(request));
     Integer id = JwtUtils.getMemberIdByJwtToken(request);
 
     User user=userService.getById(id);

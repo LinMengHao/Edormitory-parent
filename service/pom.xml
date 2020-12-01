@@ -15,6 +15,7 @@
         <module>service_admin</module>
         <module>service_manage</module>
         <module>service_oss</module>
+        <module>service_dormitory</module>
     </modules>
 
     <dependencies>
