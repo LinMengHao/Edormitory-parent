@@ -16,6 +16,10 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
     #指定mapper.xml
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
 mybatis-plus:
   mapper-locations: classpath:com/lmh/dormitoryService/mapper/xml/*.xml
   #使用logback要把下面注释掉
@@ -24,3 +28,14 @@ mybatis-plus:
 #端口号
 server:
   port: 8004
+
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
