@@ -15,6 +15,10 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
     #指定mapper.xml
 mybatis-plus:
   mapper-locations: classpath:com/lmh/adminService/mapper/xml/*.xml
@@ -24,3 +28,13 @@ mybatis-plus:
 #端口号
 server:
   port: 8001
+#feign:
+#  hystrix:
+#    enabled: true
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 6000

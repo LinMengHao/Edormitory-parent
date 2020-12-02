@@ -30,7 +30,7 @@ public class MemberController {
     private MemberService memberService;
 
     @ApiOperation(value = "根据id查询宿管信息")
-    @PostMapping("getByBuildId/{buildId}")
+    @GetMapping("getByBuildId/{buildId}")
     public R getByBuildId(@PathVariable Integer buildId){
         List<Member> members=memberService.getByBuildId(buildId);
         return R.ok().data("members",members);

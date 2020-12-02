@@ -1,0 +1,45 @@
+2020-12-02 09:36:05.353 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'buildMapper' and 'com.lmh.dormitoryService.mapper.BuildMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 09:36:05.354 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'dormitoryMapper' and 'com.lmh.dormitoryService.mapper.DormitoryMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 09:36:05.354 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.dormitoryService.mapper]' package. Please check your configuration.
+2020-12-02 09:36:09.986 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 09:36:10.012 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 09:38:10.898 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'buildMapper' and 'com.lmh.dormitoryService.mapper.BuildMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 09:38:10.898 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'dormitoryMapper' and 'com.lmh.dormitoryService.mapper.DormitoryMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 09:38:10.898 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.dormitoryService.mapper]' package. Please check your configuration.
+2020-12-02 09:38:13.343 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 09:38:13.348 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 09:38:44.902 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'memberMapper' and 'com.lmh.manageService.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 09:38:44.903 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentMapper' and 'com.lmh.manageService.mapper.StudentMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 09:38:44.903 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.manageService.mapper]' package. Please check your configuration.
+2020-12-02 09:38:47.531 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 09:38:47.536 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 13:46:40.766 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'buildMapper' and 'com.lmh.dormitoryService.mapper.BuildMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 13:46:40.767 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'dormitoryMapper' and 'com.lmh.dormitoryService.mapper.DormitoryMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 13:46:40.767 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.dormitoryService.mapper]' package. Please check your configuration.
+2020-12-02 13:46:44.767 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 13:46:44.781 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 13:48:05.214 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'memberMapper' and 'com.lmh.manageService.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 13:48:05.214 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentMapper' and 'com.lmh.manageService.mapper.StudentMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 13:48:05.214 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.manageService.mapper]' package. Please check your configuration.
+2020-12-02 13:48:07.846 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 13:48:07.852 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 14:02:22.453 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'memberMapper' and 'com.lmh.manageService.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 14:02:22.454 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentMapper' and 'com.lmh.manageService.mapper.StudentMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 14:02:22.454 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.manageService.mapper]' package. Please check your configuration.
+2020-12-02 14:02:24.797 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 14:02:24.801 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 14:02:51.429 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'buildMapper' and 'com.lmh.dormitoryService.mapper.BuildMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 14:02:51.429 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'dormitoryMapper' and 'com.lmh.dormitoryService.mapper.DormitoryMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 14:02:51.429 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.dormitoryService.mapper]' package. Please check your configuration.
+2020-12-02 14:02:53.863 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 14:02:53.868 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 14:12:55.718 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'buildMapper' and 'com.lmh.dormitoryService.mapper.BuildMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 14:12:55.718 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'dormitoryMapper' and 'com.lmh.dormitoryService.mapper.DormitoryMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 14:12:55.719 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.dormitoryService.mapper]' package. Please check your configuration.
+2020-12-02 14:12:58.530 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 14:12:58.536 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 14:13:44.106 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'memberMapper' and 'com.lmh.manageService.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 14:13:44.106 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentMapper' and 'com.lmh.manageService.mapper.StudentMapper' mapperInterface. Bean already defined with the same name!
+2020-12-02 14:13:44.106 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.manageService.mapper]' package. Please check your configuration.
+2020-12-02 14:13:46.751 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-02 14:13:46.756 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
