@@ -4,7 +4,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 @Data
-public class dormitoryQuery {
+public class DormitoryQuery {
     @ApiModelProperty("楼字Id")
     private Integer buildId;
 
