@@ -63,7 +63,7 @@ public class BuildController {
     public R getById(@PathVariable Integer id){
         R r = manageClient.getByBuildId(id);
         if(r.getCode()==999){
-            throw new LmhException(ResultCode.COMMON_FAIL.getCode(),"删除视频失败，服务器熔断");
+            throw new LmhException(ResultCode.COMMON_FAIL.getCode(),"获取宿舍楼管理员信息失败，服务器熔断");
         }
         Build build = buildService.getById(id);
         return r.data("build",build);

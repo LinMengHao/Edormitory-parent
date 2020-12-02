@@ -28,13 +28,13 @@ mybatis-plus:
 #端口号
 server:
   port: 8001
-#feign:
-#  hystrix:
-#    enabled: true
-#hystrix:
-#  command:
-#    default:
-#      execution:
-#        isolation:
-#          thread:
-#            timeoutInMilliseconds: 6000
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
