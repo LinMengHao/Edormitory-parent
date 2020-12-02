@@ -66,9 +66,8 @@ public class BuildController {
             throw new LmhException(ResultCode.COMMON_FAIL.getCode(),"删除视频失败，服务器熔断");
         }
         Build build = buildService.getById(id);
-        return r;
+        return r.data("build",build);
     }
-
     @ApiOperation(value = "根据id查楼字信息")
     @GetMapping("getBuildById/{id}")
     public R getBuildById(@PathVariable Integer id){
