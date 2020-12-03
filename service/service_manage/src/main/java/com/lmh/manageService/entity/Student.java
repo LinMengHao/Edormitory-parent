@@ -71,5 +71,6 @@ private static final long serialVersionUID=1L;
 
     @ApiModelProperty(value = "乐观锁")
     @Version
+    @TableField(fill = FieldFill.INSERT)
     private Long version;
 }

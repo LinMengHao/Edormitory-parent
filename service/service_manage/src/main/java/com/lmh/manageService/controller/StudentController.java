@@ -100,7 +100,7 @@ public class StudentController {
     @GetMapping("getStudentsByDormitoryId/{dormitoryId}")
     public R getStudentsByDormitoryId(@PathVariable("dormitoryId")Integer dormitoryId){
         QueryWrapper<Student> wrapper=new QueryWrapper<>();
-        wrapper.eq("dormitoryId",dormitoryId);
+        wrapper.eq("dormitory_id",dormitoryId);
         List<Student> students = studentService.list(wrapper);
         return R.ok().data("students",students);
     }

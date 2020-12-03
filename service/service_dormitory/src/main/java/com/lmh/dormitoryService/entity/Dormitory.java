@@ -40,6 +40,7 @@ private static final long serialVersionUID=1L;
     private Integer maxNum;
 
     @ApiModelProperty("现有人数")
+    @TableField(fill = FieldFill.INSERT)
     private Integer nowNum;
 
     @ApiModelProperty("房间号")
@@ -50,6 +51,7 @@ private static final long serialVersionUID=1L;
 
     @ApiModelProperty(value = "乐观锁")
     @Version
+    @TableField(fill = FieldFill.INSERT)
     private Long version;
 
     @ApiModelProperty(value = "创建时间")

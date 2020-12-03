@@ -45,7 +45,7 @@ public class DormitoryController {
     QueryWrapper<Dormitory> wrapper = new QueryWrapper<>();
     // 条件检验
     if (!StringUtils.isEmpty(dormitoryQuery.getBuildId())) {
-      wrapper.like("buildId", dormitoryQuery.getBuildId());
+      wrapper.like("build_id", dormitoryQuery.getBuildId());
     }
     if (!StringUtils.isEmpty(dormitoryQuery.getRoomNum())) {
       wrapper.like("room_num", dormitoryQuery.getRoomNum());
@@ -151,18 +151,11 @@ public class DormitoryController {
   @ApiOperation(value = "修改宿舍信息")
   @PostMapping("updateDormitory")
   public R updateDormitory(@RequestBody Dormitory dormitory) {
-    QueryWrapper<Dormitory> wrapper = new QueryWrapper<>();
-    wrapper.eq("room_num", dormitory.getRoomNum());
-    Dormitory one = dormitoryService.getOne(wrapper);
-    if (one != null) {
-      throw new LmhException(ResultCode.DORMITORY_ALREADY_EXIST.getCode(),ResultCode.DORMITORY_ALREADY_EXIST.getMessage());
-    } else {
       boolean flag = dormitoryService.updateById(dormitory);
       if (flag) {
         return R.ok();
       } else {
         return R.error();
       }
-    }
   }
 }
