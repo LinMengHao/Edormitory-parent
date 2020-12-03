@@ -40,7 +40,7 @@ public class StudentController {
         QueryWrapper<Student> wrapper=new QueryWrapper<>();
         //条件判断
         if(!StringUtils.isEmpty(studentQuery.getStudentId())){
-            wrapper.like("studentId",studentQuery.getStudentId());
+            wrapper.like("student_id",studentQuery.getStudentId());
         }
         if(!StringUtils.isEmpty(studentQuery.getName())){
             wrapper.like("name",studentQuery.getName());
@@ -51,10 +51,13 @@ public class StudentController {
         if(!StringUtils.isEmpty(studentQuery.getStatus())){
             wrapper.eq("status",studentQuery.getStatus());
         }
-        if(!StringUtils.isEmpty(studentQuery.getDormitoryId())){
-            wrapper.like("dormitoryId",studentQuery.getDormitoryId());
+        if(!StringUtils.isEmpty(studentQuery.getPhoneNum())){
+            wrapper.like("phone_num",studentQuery.getPhoneNum());
         }
-        wrapper.orderByDesc("createTime");
+        if(!StringUtils.isEmpty(studentQuery.getDormitoryId())){
+            wrapper.like("dormitory_id",studentQuery.getDormitoryId());
+        }
+        wrapper.orderByDesc("create_time");
 
         Page<Student> page=new Page<>(current,size);
         studentService.page(page,wrapper);
@@ -91,6 +94,15 @@ public class StudentController {
     @DeleteMapping("deleteStudent")
     public R deleteStudent(){
         return R.ok();
+    }
+
+    @ApiOperation(value = "更加宿舍id查询学生列表")
+    @GetMapping("getStudentsByDormitoryId/{dormitoryId}")
+    public R getStudentsByDormitoryId(@PathVariable("dormitoryId")Integer dormitoryId){
+        QueryWrapper<Student> wrapper=new QueryWrapper<>();
+        wrapper.eq("dormitoryId",dormitoryId);
+        List<Student> students = studentService.list(wrapper);
+        return R.ok().data("students",students);
     }
 }
 

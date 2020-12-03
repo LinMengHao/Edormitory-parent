@@ -13,4 +13,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface DormitoryService extends IService<Dormitory> {
 
+    Boolean reduceNowNum(Integer id);
+
+    Boolean addNowNum(Integer id);
+
+
 }

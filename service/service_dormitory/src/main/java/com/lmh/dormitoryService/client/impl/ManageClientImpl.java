@@ -10,4 +10,11 @@ public class ManageClientImpl implements ManageClient {
   public R getByBuildId(Integer buildId) {
     return R.error().message("连接超时");
   }
+
+  @Override
+  public R getStudentsByDormitoryId(Integer dormitoryId) {
+    return R.error().message("连接超时");
+  }
+
+
 }

@@ -13,4 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public interface ManageClient {
     @GetMapping("/manageService/member/getByBuildId/{buildId}")
     public R getByBuildId(@PathVariable("buildId") Integer buildId);
+
+    @GetMapping("getStudentsByDormitoryId/{dormitoryId}")
+    public R getStudentsByDormitoryId(@PathVariable("dormitoryId")Integer dormitoryId);
 }
