@@ -95,9 +95,17 @@ public class DormitoryController {
 
   TODO 前端页面保存楼房ID时要查询楼房然后显示提供给宿舍选择楼id保存;
 
+  //需要判断同buildId下的房间号无重复
   @ApiOperation(value = "添加宿舍")
   @PostMapping("addDormitory")
   public R addDormitory(@RequestBody Dormitory dormitory) {
+    QueryWrapper<Dormitory> wrapper=new QueryWrapper<>();
+    wrapper.eq("build_id",dormitory.getBuildId());
+    wrapper.eq("room_num",dormitory.getRoomNum());
+    Dormitory one = dormitoryService.getOne(wrapper);
+    if(one!=null){
+      return R.error().code(ResultCode.DORMITORY_ALREADY_EXIST.getCode()).message(ResultCode.DORMITORY_ALREADY_EXIST.getMessage());
+    }
     boolean save = dormitoryService.save(dormitory);
     if (save) {
       return R.ok();
@@ -157,5 +165,11 @@ public class DormitoryController {
       } else {
         return R.error();
       }
+  }
+  @ApiOperation(value = "查询最大入住大于现有入住数的宿舍集合")
+  @PostMapping("findDormitoryCan")
+  public R findDormitoryCan(){
+    List<Dormitory> dormitories=dormitoryService.findDormitoryCan();
+    return R.ok().data("dormitories",dormitories);
   }
 }

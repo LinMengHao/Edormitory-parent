@@ -34,9 +34,10 @@ public enum ResultCode implements IResultCode {
     USER_ACCOUNT_ALREADY_EXIST(2008, "账号已存在"),
     USER_ACCOUNT_USE_BY_OTHERS(2009, "账号下线"),
 
-    /*部门错误*/
+    /*错误*/
     DORMITORY_NOT_DELETE(3007, "有入住人，不可删除，请先移除住户"),
     DORMITORY_ALREADY_EXIST(3008, "宿舍房间名已存在"),
+    STUDENT_ID_EXIST(3009,"学号已经存在"),
 
     /* 业务错误 */
     NO_PERMISSION(3001, "没有权限"),

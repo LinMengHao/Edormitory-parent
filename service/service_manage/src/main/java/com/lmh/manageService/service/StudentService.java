@@ -13,4 +13,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface StudentService extends IService<Student> {
 
+    boolean addStudent(Student student);
+
+    boolean deleteStudent(Integer id);
 }
