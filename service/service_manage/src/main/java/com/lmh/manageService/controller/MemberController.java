@@ -38,10 +38,11 @@ public class MemberController {
 
   @ApiOperation(value = "根据id查询宿管信息")
   @GetMapping("getByMemberId/{id}")
-  public R getByMemberId(@PathVariable("id")Integer id){
-      Member member = memberService.getById(id);
-      return R.ok().data("member",member);
+  public R getByMemberId(@PathVariable("id") Integer id) {
+    Member member = memberService.getById(id);
+    return R.ok().data("member", member);
   }
+
   @ApiOperation(value = "条件分页查询")
   @PostMapping("findAll/{current}/{size}")
   public R findAll(
@@ -87,24 +88,48 @@ public class MemberController {
       return R.error();
     }
   }
+
   @ApiOperation(value = "修改")
-    @PostMapping("updateMember")
-    public R updateMember(@RequestBody Member member){
-      boolean b = memberService.updateById(member);
-      if(b){
-          return R.ok();
-      }else {
-       return R.error();
-      }
+  @PostMapping("updateMember")
+  public R updateMember(@RequestBody Member member) {
+    boolean b = memberService.updateById(member);
+    if (b) {
+      return R.ok();
+    } else {
+      return R.error();
+    }
   }
+
   @ApiOperation(value = "删除")
-    @DeleteMapping("deleteMember/{id}")
-    public R deleteMember(@PathVariable("id")Integer id){
-      boolean b = memberService.removeById(id);
-      if(b){
-          return R.ok();
-      }else {
-          return R.error();
-      }
+  @DeleteMapping("deleteMember/{id}")
+  public R deleteMember(@PathVariable("id") Integer id) {
+    boolean b = memberService.removeById(id);
+    if (b) {
+      return R.ok();
+    } else {
+      return R.error();
+    }
+  }
+
+  @ApiOperation(value = "查询全部")
+  @GetMapping("getAllMember")
+  public R getMember() {
+    List<Member> list = memberService.list();
+    return R.ok().data("memberList", list);
+  }
+  // 判断用户评分身份是否为本人操作
+  @ApiOperation(value = "根据姓名和电话号码查询宿管")
+  @PostMapping("findByPhoneNumAndName")
+  public R findByPhoneNumAndName(
+      @RequestParam("name") String name, @RequestParam("phoneNum") String phoneNum) {
+    QueryWrapper<Member> wrapper = new QueryWrapper<>();
+    wrapper.eq("name", name);
+    wrapper.eq("phone_num", phoneNum);
+    Member one = memberService.getOne(wrapper);
+    if (one != null) {
+      return R.ok();
+    } else {
+      return R.error();
+    }
   }
 }

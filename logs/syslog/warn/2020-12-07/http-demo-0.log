@@ -2,3 +2,7 @@
 2020-12-07 10:33:00.087 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
 2020-12-07 10:33:02.557 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
 2020-12-07 10:33:02.562 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-07 15:16:16.024 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lmh.adminService.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-12-07 15:16:16.061 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
+2020-12-07 15:16:22.172 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-07 15:16:22.197 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

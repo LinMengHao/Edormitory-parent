@@ -172,4 +172,13 @@ public class DormitoryController {
     List<Dormitory> dormitories=dormitoryService.findDormitoryCan();
     return R.ok().data("dormitories",dormitories);
   }
+
+  @ApiOperation(value = "根据楼字ID查询宿舍集合")
+  @GetMapping("findByBuildId/{buildId}")
+  public R findByBuildId(@PathVariable("buildId")Integer buildId){
+    QueryWrapper<Dormitory> wrapper=new QueryWrapper<>();
+    wrapper.eq("build_id",buildId);
+    List<Dormitory> list = dormitoryService.list(wrapper);
+    return R.ok().data("dormitoryList",list);
+  }
 }

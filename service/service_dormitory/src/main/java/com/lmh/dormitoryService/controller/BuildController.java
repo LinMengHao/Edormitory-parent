@@ -107,5 +107,11 @@ public class BuildController {
             return R.error();
         }
     }
+    @ApiOperation(value = "查询所有build")
+    @PostMapping("getAllBuild")
+    public R getAllBuild(){
+        List<Build> list = buildService.list();
+        return R.ok().data("buildList",list);
+    }
 }
 

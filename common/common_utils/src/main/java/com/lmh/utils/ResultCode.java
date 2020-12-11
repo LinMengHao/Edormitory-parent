@@ -43,7 +43,9 @@ public enum ResultCode implements IResultCode {
     NO_PERMISSION(3001, "没有权限"),
 
     /*运行时异常*/
-    ARITHMETIC_EXCEPTION(9001,"算数异常");
+    ARITHMETIC_EXCEPTION(9001,"算数异常"),
+    SAVE_ERROR(9002,"保存失败");
+
     private Integer code;
     private String message;
 

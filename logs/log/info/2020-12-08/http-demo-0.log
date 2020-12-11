@@ -1,0 +1,74 @@
+2020-12-08 23:13:00.032 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 23:13:02.438 [INFO ] com.lmh.dormitoryService.DormitoryApplication - The following profiles are active: dev
+2020-12-08 23:13:03.448 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-08 23:13:03.451 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-08 23:13:03.477 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2020-12-08 23:13:03.754 [INFO ] org.springframework.cloud.context.scope.GenericScope - BeanFactory id=397e74ee-dee5-3c32-9e49-270a1a71a901
+2020-12-08 23:13:03.859 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 23:13:03.902 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 23:13:04.139 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-12-08 23:13:04.148 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-12-08 23:13:04.148 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 23:13:04.149 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-08 23:13:04.298 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 23:13:04.598 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 23:13:05.437 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 23:13:06.277 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-08 23:13:06.296 [INFO ] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-08 23:13:06.300 [INFO ] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-08 23:13:06.394 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 23:13:08.955 [INFO ] org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2020-12-08 23:13:09.002 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-12-08 23:13:11.085 [INFO ] org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2020-12-08 23:13:13.204 [INFO ] org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2020-12-08 23:13:13.312 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-08 23:13:13.331 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-08 23:13:13.376 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-08 23:13:13.585 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingPOST_1
+2020-12-08 23:13:13.623 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-12-08 23:13:13.647 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-12-08 23:13:13.659 [INFO ] org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-dormitory 192.168.56.1:8004 register finished
+2020-12-08 23:13:16.029 [INFO ] org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2020-12-08 23:13:16.031 [INFO ] com.lmh.dormitoryService.DormitoryApplication - Started DormitoryApplication in 19.232 seconds (JVM running for 21.376)
+2020-12-08 23:13:29.049 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 23:13:31.521 [INFO ] com.lmh.manageService.ManageApplication - The following profiles are active: dev
+2020-12-08 23:13:32.472 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-08 23:13:32.474 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-08 23:13:32.494 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2020-12-08 23:13:32.751 [INFO ] org.springframework.cloud.context.scope.GenericScope - BeanFactory id=af96b5a7-7a1c-34bf-8ece-ab32b23196cd
+2020-12-08 23:13:32.848 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 23:13:32.888 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-08 23:13:33.146 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+2020-12-08 23:13:33.155 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+2020-12-08 23:13:33.156 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 23:13:33.156 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-08 23:13:33.369 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 23:13:33.664 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-08 23:13:34.528 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-08 23:13:35.238 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-08 23:13:35.263 [INFO ] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-08 23:13:35.269 [INFO ] com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-08 23:13:35.405 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 23:13:38.098 [INFO ] org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2020-12-08 23:13:38.134 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-12-08 23:13:40.281 [INFO ] org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2020-12-08 23:13:42.414 [INFO ] org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2020-12-08 23:13:42.503 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-08 23:13:42.522 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-08 23:13:42.564 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-08 23:13:42.753 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingPOST_1
+2020-12-08 23:13:42.776 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+2020-12-08 23:13:42.794 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8002 (http) with context path ''
+2020-12-08 23:13:42.812 [INFO ] org.springframework.cloud.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-manage 192.168.56.1:8002 register finished
+2020-12-08 23:13:44.906 [INFO ] org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2020-12-08 23:13:44.911 [INFO ] com.lmh.manageService.ManageApplication - Started ManageApplication in 19.103 seconds (JVM running for 20.989)
+2020-12-08 23:16:05.527 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 23:16:10.989 [INFO ] com.netflix.config.ChainedDynamicProperty - Flipping property: service-manage.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-12-08 23:16:11.020 [INFO ] com.netflix.loadbalancer.BaseLoadBalancer - Client: service-manage instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-manage,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-12-08 23:16:11.058 [INFO ] com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2020-12-08 23:16:11.089 [INFO ] com.netflix.config.ChainedDynamicProperty - Flipping property: service-manage.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-12-08 23:16:11.092 [INFO ] com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client service-manage initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-manage,current list of Servers=[192.168.56.1:8002],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.56.1:8002;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.alibaba.nacos.ribbon.NacosServerList@506af7de
+2020-12-08 23:16:11.343 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-08 23:16:12.064 [INFO ] com.netflix.config.ChainedDynamicProperty - Flipping property: service-manage.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647

@@ -1,0 +1,12 @@
+2020-12-08 23:10:45.928 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lmh.adminService.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-12-08 23:10:45.928 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
+2020-12-08 23:10:50.929 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-08 23:10:50.954 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-08 23:11:47.107 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lmh.adminService.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-12-08 23:11:47.108 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
+2020-12-08 23:11:49.870 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-08 23:11:49.875 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-08 23:12:10.394 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lmh.adminService.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-12-08 23:12:10.394 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lmh.adminService.mapper]' package. Please check your configuration.
+2020-12-08 23:12:13.212 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-12-08 23:12:13.218 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

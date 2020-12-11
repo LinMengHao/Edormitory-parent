@@ -16,6 +16,7 @@
         <module>service_manage</module>
         <module>service_oss</module>
         <module>service_dormitory</module>
+        <module>service_score</module>
     </modules>
 
     <dependencies>
